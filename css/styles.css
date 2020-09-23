@@ -1,0 +1,27 @@
+body {
+	background: #00DCAB;
+}
+
+img {
+	display: block;
+	margin: auto;
+	width: 450px;
+	height: 250px;
+}
+
+p{
+	font-family: Arial;
+	font-weight: bold;
+}
+
+div{
+	text-align: center;
+}
+#txtbuscar {
+	display: block;
+	margin: auto;
+}
+
+#buscar {
+	float: right;
+}
