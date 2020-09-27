@@ -1,28 +1,41 @@
 body {
-	background: #00DCAB;
+	background: #00ffff;
 }
 
 img {
 	display: block;
 	margin: auto;
 	width: 450px;
-	height: 250px;
 }
 
 p{
 	font-family: Arial;
 	font-weight: bold;
 }
+#admiracion{
+	display: inline;
+	border: 1px solid black;
+	border-radius: 10px;
+	width: 15px;
+}
 
 div{
-	padding-left: 820px;
-	padding-right: 820px;
+	text-align:center;
 }
+
 #txtbuscar {
-	border-style: double;
-
+	display: inline-flex;
+	margin: auto;
+	border-radius:3px;
+	border: 2px solid black;
+	height: 5%;
+	width: 25%;
 }
 
-div #buscar {
-	float: right;
+#buscar {
+	border-radius:3px;
+	border: 2px solid black;
+	font-weight: bold;
+	height: 5%;
+	border-style: double;
 }
