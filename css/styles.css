@@ -15,13 +15,14 @@ p{
 }
 
 div{
-	text-align: center;
+	padding-left: 820px;
+	padding-right: 820px;
 }
 #txtbuscar {
-	display: block;
-	margin: auto;
+	border-style: double;
+
 }
 
-#buscar {
+div #buscar {
 	float: right;
 }
