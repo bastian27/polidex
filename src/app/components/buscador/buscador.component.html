@@ -5,7 +5,13 @@
 <br>
 <div>
   <form>
-    <input type="text" id="txtbuscar" placeholder="Buscar Pokemon">
+    <input id="txtbuscar"
+    #inputSearch
+    autofocus
+    type="text"
+    placeholder="Buscar pokemon..."
+    (keyup)="onSearch(inputSearch.value)"
+  />
     <input type="submit" id="buscar" value="Buscar">
   </form>
 </div>
